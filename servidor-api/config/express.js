@@ -1,5 +1,3 @@
-/* Código simplório, apenas para fornecer o serviço para a aplicação */
-
 var express = require('express')
     ,app = express()
     ,routes = require('../app/routes')

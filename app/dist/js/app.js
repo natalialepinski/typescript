@@ -10,3 +10,12 @@ if (form) {
 else {
     throw Error('Form does not exist.');
 }
+const importButton = document.querySelector('#import');
+if (importButton) {
+    importButton.addEventListener('click', () => {
+        controller.importData();
+    });
+}
+else {
+    throw Error('Import button does not exist.');
+}
